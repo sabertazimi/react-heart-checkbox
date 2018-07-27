@@ -12,7 +12,9 @@ class HeartCheckbox extends Component {
     return (
       <button
         className={ `heart-checkbox ${checked ? 'checked' : ''}` }
-        onClick={ (event) => onClick ? onClick(event, this.props) : this.onClick(event) } >
+        onClick={ (event) => onClick ? onClick(event, this.props) : this.onClick(event) }
+        { ...this.props }
+      >
       </button>
     );
   }

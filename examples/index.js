@@ -21,7 +21,7 @@ class Demo extends React.Component {
     return (
       <>
         <h1>{checked ? 'checked' : 'unchecked'}</h1>
-        <HeartCheckbox checked={checked} onClick={this.onClick} />
+        <HeartCheckbox checked={checked} onClick={this.onClick} tabindex="0" />
       </>
     );
   }
