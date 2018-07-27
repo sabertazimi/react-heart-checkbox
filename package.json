@@ -1,6 +1,6 @@
 {
   "name": "react-heart-checkbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "React heart checkbox",
   "main": "lib/index.js",
   "scripts": {
