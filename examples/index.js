@@ -7,7 +7,7 @@ function Demo() {
   return (
     <>
       <h1>Demo with examples of the component</h1>
-      <HeartCheckbox color="brown">Wow what a button</HeartCheckbox>
+      <HeartCheckbox>Wow what a button</HeartCheckbox>
     </>
   );
 }

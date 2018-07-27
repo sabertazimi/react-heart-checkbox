@@ -26,7 +26,7 @@ deploy:
     skip_cleanup: true
     email: $GIT_EMAIL
     api_key: $NPM_TOKEN
-    tag: next
+    tag: latest
     on :
       branch: master
       tags: true

@@ -1,12 +1,12 @@
 import React, { Component } from "react";
+import "./index.css";
 
 class HeartCheckbox extends Component {
   render() {
-    const { color, children, onClick } = this.props;
+    const { onClick } = this.props;
 
     return (
-      <button onClick={onClick} style={{ color }}>
-        {children}
+      <button className="heart-checkbox" onClick={onClick} >
       </button>
     );
   }
